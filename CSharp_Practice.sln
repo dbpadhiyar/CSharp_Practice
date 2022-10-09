@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_CLR", "2_CLR\2_CLR.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Read_Write_In_Console", "4_Read_Write_In_Console\4_Read_Write_In_Console.csproj", "{AEB7B668-BEAD-45FF-ACCD-C9F2C0549C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Build_In_DataType", "5_Build_In_DataType\5_Build_In_DataType.csproj", "{BEE951A0-97C8-4640-B68F-343B2E443B6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AEB7B668-BEAD-45FF-ACCD-C9F2C0549C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB7B668-BEAD-45FF-ACCD-C9F2C0549C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB7B668-BEAD-45FF-ACCD-C9F2C0549C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE951A0-97C8-4640-B68F-343B2E443B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE951A0-97C8-4640-B68F-343B2E443B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE951A0-97C8-4640-B68F-343B2E443B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE951A0-97C8-4640-B68F-343B2E443B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
