@@ -85,5 +85,21 @@ class Program
         while (a <0) ;
         Console.WriteLine("--------------------- DO While loop END---------------------");
         Console.WriteLine("\n");
+
+        Console.WriteLine("--------------------- DO While loop Example STR---------------------");
+        string decision = string.Empty;
+        do
+        {
+            Console.WriteLine("Enter Price of first Product");
+            int firstProductPrice = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Price of Second Product");
+            int secondProductPrice = int.Parse(Console.ReadLine());
+            int totalPrice = firstProductPrice + secondProductPrice;
+            Console.WriteLine("Total of two product is {0}\n", totalPrice);
+            Console.WriteLine("do you want to do total of other pair product");
+            decision = Console.ReadLine();
+        }
+        while(decision.ToUpper() == "YES") ;
+        Console.WriteLine("Thank you for using pair calculator");
     }
 }
