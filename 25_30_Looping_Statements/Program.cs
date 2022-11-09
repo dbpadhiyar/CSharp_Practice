@@ -101,5 +101,7 @@ class Program
         }
         while(decision.ToUpper() == "YES") ;
         Console.WriteLine("Thank you for using pair calculator");
+        Console.WriteLine("--------------------- DO While loop Example END---------------------");
+        Console.WriteLine("\n");
     }
 }
